@@ -9,7 +9,7 @@ jobs:
       - name: Checkout and Setup
         uses: actions/checkout@v3
         with:
-          python-version: '3.8'
+          python-version: '3.10'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
