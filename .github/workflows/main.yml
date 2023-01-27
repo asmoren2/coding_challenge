@@ -9,8 +9,8 @@ jobs:
       matrix:
         python: ["3.8"]
     steps:
-      - uses: actions/checkout@v3
       - name: Checkout and Setup
+        uses: actions/checkout@v3
         with:
           python-version: ${{matrix.python}}
       - name: Install dependencies
