@@ -1,6 +1,6 @@
 # Coding Challenge App
 
-A skeleton flask app to use for a coding challenge.
+A skeleton flask app to use for a coding challenge. Something
 
 ## Install:
 
